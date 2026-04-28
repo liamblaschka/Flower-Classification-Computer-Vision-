@@ -1,5 +1,5 @@
 # Flower Classification (Computer Vision)
-Computer Vision Assignment.
+Computer Vision Assignment
 
 ## Description
 Involes:
