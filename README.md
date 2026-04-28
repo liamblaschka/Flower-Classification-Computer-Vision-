@@ -1,4 +1,4 @@
-# Flower Classification (Computer Vision)
+# Flower Image Classification (Computer Vision)
 Computer Vision Assignment
 
 ## Description
