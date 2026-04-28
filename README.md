@@ -3,7 +3,7 @@ Computer Vision Assignment at The University of Adelaide.
 
 ## Description
 Involes:
-- Improving a Conventional Neural Network (CNN) to achieve higher accuracy in the image classification of flowers.
+- Improving a provided baseline Conventional Neural Network (CNN) to achieve higher accuracy in the image classification of flowers.
 
 Image classification is a computer vision problem that involves classifying images under specific labels; this
 assignment focuses on image classification of flowers with five categories: daisy, dandelion, rose, sunflower,
