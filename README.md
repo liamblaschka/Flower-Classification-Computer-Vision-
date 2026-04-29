@@ -1,12 +1,20 @@
 # Flower Image Classification (Computer Vision)
 Computer Vision Assignment
 
-## Description
-Involes:
-- Improving a provided baseline Conventional Neural Network (CNN) to achieve higher accuracy in the image classification of flowers.
+## Overview
+This project implements an image classification model to recognise five flower species (daisy, dandelion, rose, sunflower, tulip) using deep learning. The goal was to improve a baseline convolutional neural network and evaluate performance against computational cost.
 
-Image classification is a computer vision problem that involves classifying images under specific labels; this
-assignment focuses on image classification of flowers with five categories: daisy, dandelion, rose, sunflower,
-and tulip. The provided dataset is small to medium in size, containing 4,317 images of flowers. The baseline
-model uses a simple CNN architecture (0.03332 GFLOPs) with three convolutional layers followed by fully
-connected layers that use ReLU activations and max pooling.
+## Approach
+- Started with a baseline CNN model
+- Applied:
+  - Data augmentation (random crops, flips, colour jitter)
+  - Hyperparameter tuning (learning rate, batch size)
+  - Label smoothing
+- Used transfer learning with EfficientNet-B0
+- Conducted ablation studies to evaluate each modification
+
+## Results
+- Baseline accuracy: ~62%
+- Final accuracy: 92.6%
+- Computational cost: 0.42 GFLOPs
+- Demonstrated trade-off between accuracy and efficiency
