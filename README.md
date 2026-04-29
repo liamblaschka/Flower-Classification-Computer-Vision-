@@ -18,3 +18,10 @@ This project implements an image classification model to recognise five flower s
 - Final accuracy: 92.59%
 - Computational cost: 0.4206 GFLOPs
 - Demonstrated trade-off between accuracy and efficiency
+
+## Technologies Used
+- Python
+- PyTorch
+- Torchvision
+- NumPy
+- Matplotlib
