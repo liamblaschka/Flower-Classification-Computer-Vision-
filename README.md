@@ -14,7 +14,7 @@ This project implements an image classification model to recognise five flower s
 - Conducted ablation studies to evaluate each modification
 
 ## Results
-- Baseline accuracy: ~62%
-- Final accuracy: 92.6%
-- Computational cost: 0.42 GFLOPs
+- Baseline accuracy: 62.27%
+- Final accuracy: 92.59%
+- Computational cost: 0.4206 GFLOPs
 - Demonstrated trade-off between accuracy and efficiency
